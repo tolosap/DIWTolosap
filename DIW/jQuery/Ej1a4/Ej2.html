@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ej2</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  </head>
+  <script type="text/javascript">
+  $(document).ready(function(){
+
+    var titulo = $(document.createElement("div")).addClass("titulo").html("Por fin es veves!");
+    $("body").append(titulo);
+    $("div:first").css('color','blue').css('font-family','arial').css('font-size','45px');
+
+    var foto = $(document.createElement("div")).attr("id","foto");
+    $("body").append(foto);
+    $('#foto').prepend('<img id="foto" src="https://pbs.twimg.com/profile_images/623523553548365824/e4PlmPOq.jpg"></img>');
+    $("img:first").attr("width", "400");
+  }
+  );
+  </script>
+  <body></body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ej3</title>
+  </head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script>
+  $(document).ready(function(){
+    //a. Formatear el texto y la imagen (
+    $("img").attr("width", "400");
+    $("h1").css("font-size", "");
+
+    //b. Ocultar inicialmente la imagen y los botones
+    $("img").hide();
+    $(":button").hide();
+
+    //c. Mostrar la imagen cuando el usuario haga click en el título
+    $("h1").click(function() {
+      $("img").show();
+      $(":button").show();
+    }
+    );
+
+    //d. Modificar el tamaño de la imagen cuando el usuario pulse los botontes + y
+    // -. Los incrementos/decrementos suponen una variación de 20px.
+    $("#masAncho:button").click( function() {
+      var foto = $("img");
+      foto.attr( "width", foto.width() + 20 );
+    }
+    );
+    $("#menosAncho:button").click( function() {
+      var foto = $("img");
+      foto.attr( "width", foto.width() - 20 );
+    }
+    );
+
+  }
+  );
+  </script>
+  <body>
+    <h1>Haz click aquí para ver la imagen!</h1>
+    <div class="contenedor">
+      <img src="https://pbs.twimg.com/profile_images/679438892890791938/2ykZUZE4_400x400.jpg">
+      <button id="masAncho">+</button>
+      <button id="menosAncho">-</button>
+    </div>
+  </body>
+</html>
