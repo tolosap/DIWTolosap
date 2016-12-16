@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Ej5</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script type="text/javascript">
+
+  $(document).ready(function(){
+
+    var encend = $("img:first");
+    var apag = $("img:eq(1)");
+    var encender = $(".encender:button");
+    var apagar = $(".apagar:button");
+
+    encend.hide();
+    apagar.hide();
+
+    encender.click(function() {
+
+      apag.hide();
+      encend.show();
+      apagar.show();
+      encender.hide();
+    }
+  );
+
+  apagar.click(function() {
+
+    apag.show();
+    encend.hide();
+    apagar.hide();
+    encender.show();
+  }
+);
+
+}
+);
+</script>
+</head>
+<body>
+
+  <img src="https://www.puzzleclopedia.com/wp-content/uploads/bombilla.jpg" alt="Bombilla encend" id="encend" width="400">
+  <img src="https://thumbs.dreamstime.com/x/bombilla-incandescente-apagada-ejemplo-29816672.jpg" alt="Bombilla apag" id="apag">
+  <br>
+  <button class="encender">Encender bombilla</button>
+  <button class="apagar">Apagar bombilla</button>
+</body>
+</html>
