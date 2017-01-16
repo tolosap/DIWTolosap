@@ -1,6 +1,6 @@
 * {
   margin: 0px; padding: 0px;
-  font-family: arial, helvetica, sans-serif; color: #065f34; background: #FFFFFF;
+  font-family: arial, helvetica, sans-serif; color: #066105; background: #FFFFFF;
   line-height: 1.3em;
 }
 
@@ -15,11 +15,13 @@ body {
 
 h1 {
   font-size: 1.6em;
+  color: #7c00ed;
 }
 
 h2, #primeros p, #segundos p, #postres p {
   font-size: 1.4em;
   font-weight: bold;
+  color: #000000;
 }
 
 h3 {
@@ -46,6 +48,7 @@ p {
 
 p span{
   font-style: italic;
+  color: #000000;
 }
 
 a {
@@ -62,6 +65,10 @@ a:focus, a:hover {
 
 #abuela{
   border-bottom: none;
+}
+
+#abuela a:hover{
+  background: none;
 }
 
 #titulo {
