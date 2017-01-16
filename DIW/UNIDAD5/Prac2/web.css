@@ -63,9 +63,6 @@ a:focus, a:hover {
 #abuela{
   border-bottom: none;
 }
-#abuela a:visited{
-  border-bottom: none;
-}
 
 #titulo {
   height: 90px;
