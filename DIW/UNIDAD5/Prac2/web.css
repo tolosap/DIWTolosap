@@ -49,15 +49,22 @@ p span{
 }
 
 a {
-  color: #598eff; text-decoration: none; border-bottom: 1px dotted #598eff;
+  color: #0b16bb; text-decoration: none; border-bottom: 1px dotted #0b16bb;
 }
 
 a:visited {
-  color: #598eff; border-bottom: 1px solid #598eff;
+  color: #920093; border-bottom: 1px solid #920093;
 }
 
 a:focus, a:hover {
   color: #003366; background: #CCCCCC; border-bottom: 1px solid #003366;
+}
+
+#abuela{
+  border-bottom: none;
+}
+#abuela a:visited{
+  border-bottom: none;
 }
 
 #titulo {
