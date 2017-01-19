@@ -113,7 +113,7 @@ a:focus, a:hover {
 }
 
 /* Esconde todos los apartados del contenido excepto presentaciÃ³n */
-#primeros, #segundos, #postres,#tortilla {
+#primeros, #segundos, #postres{
   display: none;
 }
 
