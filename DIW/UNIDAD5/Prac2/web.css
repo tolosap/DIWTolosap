@@ -203,7 +203,7 @@ font-size: 0.6em;
   width: 300px;
   height: 200px;
 }
-th{
+td{
   display: block;
   font-weight: normal;
   margin: 3px 5px 3px 5px;
@@ -213,9 +213,13 @@ th{
   display: block;
   color: rgb(10, 30, 115);
 }
-th, #asd{
+td, th{
   color: black;
 }
 iframe{
   margin: 10px 0 0 175px;
+}
+#tabIng{
+  display: inline-block;
+  margin-left: 25px;
 }
