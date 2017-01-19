@@ -113,7 +113,7 @@ a:focus, a:hover {
 }
 
 /* Esconde todos los apartados del contenido excepto presentaciÃ³n */
-#primeros, #segundos, #postres {
+#primeros, #segundos, #postres,#tortilla {
   display: none;
 }
 
@@ -152,4 +152,70 @@ a:focus, a:hover {
 .oculto {
   position: absolute;
   top: -5000px;
+}
+
+/*------------(CSS LOGO TAW)------------*/
+
+.tawlogo {
+font-family: arial, sans-serif;
+border: 1px solid #555;
+vertical-align: 0.3em;
+font-weight: bold;
+color: #fff;
+font-size: 0.9em;
+background-color: #555;
+padding: 0;
+}
+
+.tawlogo .tnivel {
+padding: 0 0.4em ;
+border-bottom: 0px;
+background-color: #555;
+color: #fff;
+font-size: 0.8em;
+}
+
+.tawlogo abbr {
+border-bottom: 0px;
+}
+
+.tawlogo acronym{
+border-bottom: 0px;
+padding: 0 0.3em;
+background-color: #fff;
+color: #000;
+}
+
+.tawlogo sup{
+padding: 0em;
+vertical-align: 0.6em;
+font-size: 0.6em;
+}
+/*------------(CSS LOGO TAW)------------*/
+
+/*----Modificaciones web----*/
+#taw{
+  color: black;
+  margin-left: 5px;
+}
+
+#fototorti{
+  width: 300px;
+  height: 200px;
+}
+th{
+  display: block;
+  font-weight: normal;
+  margin: 3px 5px 3px 5px;
+  padding: 1px 3px 1px 3px;
+}
+#preparacion{
+  display: block;
+  color: rgb(10, 30, 115);
+}
+th, #asd{
+  color: black;
+}
+iframe{
+  margin: 20px 0 0 175px;
 }
