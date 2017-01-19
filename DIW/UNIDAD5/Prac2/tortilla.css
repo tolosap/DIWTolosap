@@ -209,6 +209,7 @@ td{
   font-weight: normal;
   margin: 3px 5px 3px 5px;
   padding: 1px 3px 1px 3px;
+  border: 1px solid black;
 }
 #preparacion{
   display: block;
@@ -223,5 +224,5 @@ iframe{
 #tabIng{
   display: inline-block;
   margin-left: 350px;
-  border: 2px;
+  border: 2px solid black;
 }
