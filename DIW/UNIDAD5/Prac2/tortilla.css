@@ -221,7 +221,7 @@ td, th{
 iframe{
   margin: 10px 0 0 175px;
 }
-#tabIng{
+table{
   display: inline-block;
   margin-left: 350px;
   border: 2px solid black;
